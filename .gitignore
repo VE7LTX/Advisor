@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyd
+*.pyo
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints
+
+# Data
+data/raw/
+data/processed/
+data/*.csv
+data/*.json
+
+# Logs
+logs/
+*.log
+
+# Configurations
+config/secrets.json
+config/*.env
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pytest
+.cache/
+
+# Other
+*.swp
+*.swo
+*.bak
+.idea/
+.vscode/

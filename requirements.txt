@@ -1,0 +1,51 @@
+# Core dependencies
+requests  # HTTP library for making requests to web services
+numpy  # Fundamental package for scientific computing with Python
+pandas  # Data analysis and manipulation library
+
+# AI and Machine Learning
+scikit-learn  # Machine learning library for Python
+tensorflow  # Open-source platform for machine learning
+keras  # High-level neural networks API, running on top of TensorFlow
+torch  # PyTorch for deep learning
+xgboost  # Extreme Gradient Boosting, an optimized distributed gradient boosting library
+
+# Data Handling and APIs
+yfinance  # Yahoo! Finance market data downloader
+forex-python  # Foreign exchange rates, bitcoin price index and conversion using fixer.io
+beautifulsoup4  # Library for parsing HTML and XML documents
+requests-html  # For HTML parsing and web scraping
+sqlalchemy  # SQL toolkit and Object-Relational Mapping (ORM) library
+pydantic  # Data validation and settings management using Python type annotations
+psycopg2-binary  # PostgreSQL database adapter for Python, non-locking version
+
+# Additional Web Scraping Libraries
+selenium  # Web browser automation tool
+scrapy  # Web crawling framework
+lxml  # XML and HTML parser
+tldextract  # Extracts the TLD from URLs
+
+# Additional Database Management Libraries
+alembic  # Database migrations tool for SQLAlchemy
+mysql-connector-python  # MySQL driver for Python
+redis  # Redis database client
+mongoengine  # Object-Document Mapper for MongoDB
+pyodbc  # Python ODBC bridge
+
+# Environment Management
+python-dotenv  # Reads key-value pairs from a .env file and can set them as environment variables
+
+# Logging and Debugging
+loguru  # Logging library for Python
+debugpy  # Debugging for VS Code
+
+# Testing
+pytest  # Framework that makes building simple and scalable test cases easy
+unittest2  # Backport of Python 2.7's unittest module
+pytest-cov  # Coverage plugin for pytest
+mock  # Mocking library for testing
+
+# Jupyter Notebooks (for analysis)
+jupyter  # Jupyter metapackage, installs Jupyter notebook, qtconsole, and IPython
+ipykernel  # Jupyter kernel for IPython
+nbconvert  # Convert Jupyter notebooks to other formats
