@@ -1,20 +1,25 @@
 # src/data_api_client.py
 
 """
-data_api_client.py - A client for interacting with various financial and data APIs.
+data_api_client.py - A collection of clients for interacting with various financial and data APIs.
 
-This module provides classes that encapsulate the functionality required to interact with various data sources like 
-Yahoo Finance, Forex rates, and others. Each class is dedicated to a specific API and provides methods for fetching 
+This module provides a set of classes that encapsulate the functionality required to interact with various data sources
+like Yahoo Finance, Forex rates, and others. Each class is dedicated to a specific API and provides methods for fetching
 market data, exchange rates, and other relevant information.
 
 Classes:
-    - `YahooFinanceAPI`: Interacts with Yahoo Finance to fetch stock and cryptocurrency data.
-    - `ForexPythonAPI`: Interacts with Forex-Python to fetch currency exchange rates.
-    - `OpenExchangeRatesAPI`: Interacts with Open Exchange Rates to fetch exchange rates.
-    - `CurrencyLayerAPI`: Interacts with CurrencyLayer to fetch exchange rates.
-    - `ExchangeRatesAPI`: Interacts with ExchangeRatesAPI.io to fetch exchange rates.
-    - `AlphaVantageAPI`: Interacts with Alpha Vantage to fetch exchange rates.
-    - `ExchangerateHostAPI`: Interacts with Exchangerate.host to fetch exchange rates.
+    - YahooFinanceAPI: Interacts with Yahoo Finance to fetch stock and cryptocurrency data.
+    - ForexPythonAPI: Interacts with Forex-Python to fetch currency exchange rates.
+    - OpenExchangeRatesAPI: Interacts with Open Exchange Rates to fetch exchange rates.
+    - CurrencyLayerAPI: Interacts with CurrencyLayer to fetch exchange rates.
+    - ExchangeRatesAPI: Interacts with ExchangeRatesAPI.io to fetch exchange rates.
+    - AlphaVantageAPI: Interacts with Alpha Vantage to fetch exchange rates.
+    - ExchangerateHostAPI: Interacts with Exchangerate.host to fetch exchange rates.
+
+Key Features:
+    - Encapsulated API interactions: Each API is represented by a separate class for modularity and clarity.
+    - Error handling: Each method is wrapped in a try-except block to handle potential API errors gracefully.
+    - Extensibility: New APIs can be easily integrated by adding new classes following the existing structure.
 
 Usage Example:
     from data_api_client import YahooFinanceAPI, ForexPythonAPI, OpenExchangeRatesAPI
@@ -35,6 +40,7 @@ Usage Example:
     # Fetch exchange rate from Open Exchange Rates
     open_rate = open_exchange_client.get_rate("USD", "EUR")
     print(open_rate)
+
 """
 
 import yfinance as yf
